@@ -23,7 +23,7 @@
 you can set up project on local by running commands
 
 1. npm i (for instaling dependencies)
-2. node index.js (as index.js is entry point of this project)
+2. node server.js (as server.js is entry point of this project)
 
 Note:- you can use environment variable by creating your own .env file on your local and write
 
