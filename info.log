@@ -1,0 +1,13 @@
+{"level":"info","message":"url: http://localhost:3001, ,method: GET , server: GET RESPONSE:- REST API SERVER 1 on port 3001, requestTime: 1720085680714ms, responseTime: 1720085681507ms, timeTaken:793ms"}
+{"level":"info","message":"url: http://localhost:3002, ,method: POST , server: POST RESPONSE :- REST API SERVER 2 on port 3002, requestTime: 1720085692869ms, responseTime: 1720085693881ms, timeTaken:1012ms"}
+{"level":"info","message":"url: http://localhost:3001, ,method: GET , server: GET RESPONSE:- REST API SERVER 1 on port 3001, requestTime: 1720085702161ms, responseTime: 1720085703081ms, timeTaken:920ms"}
+{"level":"info","message":"url: http://localhost:3003, ,method: GET , server: GET RESPONSE:- GraphQL SERVER 1 on port 3003, requestTime: 1720085714350ms, responseTime: 1720085715275ms, timeTaken:925ms"}
+{"level":"info","message":"url: http://localhost:3004, ,method: POST , server: POST RESPONSE :- GraphQL SERVER 2 on port 3004, requestTime: 1720085728692ms, responseTime: 1720085729535ms, timeTaken:843ms"}
+{"level":"info","message":"url: http://localhost:3003, ,method: GET , server: GET RESPONSE:- GraphQL SERVER 1 on port 3003, requestTime: 1720085737494ms, responseTime: 1720085737652ms, timeTaken:158ms"}
+{"level":"info","message":"url: http://localhost:3003, ,method: GET , server: GET RESPONSE:- GraphQL SERVER 1 on port 3003, requestTime: 1720085747511ms, responseTime: 1720085748104ms, timeTaken:593ms"}
+{"level":"info","message":"url: http://localhost:3003, ,method: GET , server: GET RESPONSE:- GraphQL SERVER 1 on port 3003, requestTime: 1720085755408ms, responseTime: 1720085755845ms, timeTaken:437ms"}
+{"level":"info","message":"url: http://localhost:3001, ,method: GET , server: GET RESPONSE:- REST API SERVER 1 on port 3001, requestTime: 1720087955005ms, responseTime: 1720087956045ms, timeTaken:1040ms"}
+{"level":"info","message":"url: http://localhost:3001, ,method: GET , server: GET RESPONSE:- REST API SERVER 1 on port 3001, requestTime: 1720087968579ms, responseTime: 1720087969349ms, timeTaken:770ms"}
+{"level":"info","message":"url: http://localhost:3002, ,method: POST , server: POST RESPONSE :- REST API SERVER 2 on port 3002, requestTime: 1720088576350ms, responseTime: 1720088577256ms, timeTaken:906ms"}
+{"level":"info","message":"url: http://localhost:3004, ,method: POST , server: POST RESPONSE :- GraphQL SERVER 2 on port 3004, requestTime: 1720089115769ms, responseTime: 1720089115950ms, timeTaken:181ms"}
+{"level":"info","message":"url: http://localhost:3003, ,method: GET , server: GET RESPONSE:- GraphQL SERVER 1 on port 3003, requestTime: 1720089427419ms, responseTime: 1720089427815ms, timeTaken:396ms"}
