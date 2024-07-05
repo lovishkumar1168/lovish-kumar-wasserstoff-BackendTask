@@ -34,3 +34,11 @@ for example:-
 3. REST_API_SERVER2_PORT = 3002
 4. GRAPHQL_SERVER1_PORT = 3003
 5. GRAPHQL_SERVER2_PORT = 3004
+
+# SUBMISSION LINKS:-
+
+1. POSTMAN COLLECTION LINK:- https://www.postman.com/payload-astronaut-64362595/workspace/load-balancer/request/34184395-39f84059-d7ba-48f7-92ac-52c3e17a3c02
+
+2. VIDEO LINK:- https://drive.google.com/file/d/1-IEI6_-ShRqV0rvhFlQXj91jWMwg0_E2/view?usp=sharing
+
+3. DEPLOY URL:- https://lovish-kumar-wasserstoff-backendtask.onrender.com
