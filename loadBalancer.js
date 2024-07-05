@@ -1,14 +1,14 @@
 
 //defing urls for rest servers
 const restServers=[
-    'http://localhost:3001',
-    'http://localhost:3002'
+    `http://localhost:${process.env.REST_API_SERVER1_PORT}`,
+    `http://localhost:${process.env.REST_API_SERVER2_PORT}`
 ]
 
 //defing urls for GraphQL servers
 const graphqlServers=[
-    'http://localhost:3003',
-    'http://localhost:3004',
+    `http://localhost:${process.env.GRAPHQL_SERVER1_PORT}`,
+    `http://localhost:${process.env.GRAPHQL_SERVER2_PORT}`,
 ]
 
 // initailising index for both servers
@@ -30,8 +30,8 @@ export const getServer=(apiType,priority)=>{
         let graphqlServer;
         if(priority==0)
         {
-            graphqlServer=graphqlServers[0]; // selecting first url if priorirty is 0
-            graphqlServerIndex=(graphqlServerIndex+1)%graphqlServer.length; // increment graphQlServerindex and make sure it stays within the length of graphqlServers
+            graphqlServer=graphqlServers[graphqlServerIndex]; // selecting server based on round robin
+            graphqlServerIndex=(graphqlServerIndex+1)%graphqlServers.length; // increment graphQlServerindex and make sure it stays within the length of graphqlServers
         }
         else
         {
