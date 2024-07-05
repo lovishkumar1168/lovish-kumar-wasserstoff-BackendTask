@@ -1,14 +1,14 @@
 
 //defing urls for rest servers
 const restServers=[
-    `http://localhost:${process.env.REST_API_SERVER1_PORT}`,
-    `http://localhost:${process.env.REST_API_SERVER2_PORT}`
+    process.env.REST_API_SERVER1_URL || `http://localhost:${process.env.REST_API_SERVER1_PORT}`,
+    process.env.REST_API_SERVER2_URL || `http://localhost:${process.env.REST_API_SERVER2_PORT}`
 ]
 
 //defing urls for GraphQL servers
 const graphqlServers=[
-    `http://localhost:${process.env.GRAPHQL_SERVER1_PORT}`,
-    `http://localhost:${process.env.GRAPHQL_SERVER2_PORT}`,
+    process.env.GRAPHQL_SERVER1_URL || `http://localhost:${process.env.GRAPHQL_SERVER1_PORT}`,
+    process.env.GRAPHQL_SERVER2_URL || `http://localhost:${process.env.GRAPHQL_SERVER2_PORT}`,
 ]
 
 // initailising index for both servers
